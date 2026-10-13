@@ -1,0 +1,6 @@
+{
+  "name": "星穹航天",
+  "description": "实时刷新前沿航天最新进展与火箭发射全景，支持按关键词订阅即时推送提醒。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

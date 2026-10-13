@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Planet orbit arc behind rocket -->
+    <path
+        android:strokeColor="#5000E5FF"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M 30,68 C 36,46 64,36 82,46" />
+
+    <!-- Rocket Exhaust Plume / Flames -->
+    <path
+        android:pathData="M 47,68 L 54,88 L 61,68 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="68"
+                android:endX="54"
+                android:endY="88"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF6D00" />
+                <item android:offset="0.7" android:color="#FFAB00" />
+                <item android:offset="1.0" android:color="#00FFD600" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Inner Flame Core -->
+    <path
+        android:pathData="M 50,68 L 54,80 L 58,68 Z"
+        android:fillColor="#FFFFEE55" />
+
+    <!-- Rocket Wings / Boosters -->
+    <!-- Left Wing -->
+    <path
+        android:pathData="M 43,54 L 37,68 L 47,68 L 47,56 Z"
+        android:fillColor="#0284C7" />
+    <!-- Right Wing -->
+    <path
+        android:pathData="M 65,54 L 71,68 L 61,68 L 61,56 Z"
+        android:fillColor="#0284C7" />
+
+    <!-- Rocket Main Fuselage -->
+    <path
+        android:pathData="M 54,24 C 47,34 45,54 45,68 L 63,68 C 63,54 61,34 54,24 Z"
+        android:fillColor="#F8FAFC" />
+
+    <!-- Rocket Cockpit Window (Cyan Glow) -->
+    <path
+        android:pathData="M 54,36 m -4.5,0 a 4.5,4.5 0 1,0 9,0 a 4.5,4.5 0 1,0 -9,0"
+        android:fillColor="#00E5FF" />
+    <path
+        android:pathData="M 54,36 m -2.5,0 a 2.5,2.5 0 1,0 5,0 a 2.5,2.5 0 1,0 -5,0"
+        android:fillColor="#E0F7FA" />
+
+    <!-- Rocket Hull Detail Band -->
+    <path
+        android:pathData="M 46,55 L 62,55 L 62,58 L 46,58 Z"
+        android:fillColor="#00E5FF" />
+
+    <!-- Nose Cone Cap -->
+    <path
+        android:pathData="M 54,24 C 52,27 50,30 49,34 L 59,34 C 58,30 56,27 54,24 Z"
+        android:fillColor="#0284C7" />
+
+    <!-- Little Signal Star / Radar Sparkle -->
+    <path
+        android:pathData="M 68,28 L 70,23 L 72,28 L 77,30 L 72,32 L 70,37 L 68,32 L 63,30 Z"
+        android:fillColor="#00E5FF" />
+</vector>
